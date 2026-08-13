@@ -1,0 +1,35 @@
+
+/* assets/css/main.css */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg-void: #0c0f10;
+  --bg-deep: #0a1c18;
+  --ink: #e8e8e8;
+  --ink-muted: #9aa3a0;
+  --accent: #4caf50;
+  --accent-soft: rgba(76, 175, 80, 0.14);
+  --accent-line: rgba(76, 175, 80, 0.35);
+  --edge: rgba(255, 255, 255, 0.08);
+
+  --font-display: 'Space Grotesk', 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #f9fafb;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+}
