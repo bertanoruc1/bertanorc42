@@ -6,7 +6,7 @@
       "nuxt",
       "unocss",
       "@nuxt/content",
-      "nuxt-icon"
+      "@nuxt/icon"
     ],
     "lib": ["ESNext", "DOM"]
   }
