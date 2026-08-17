@@ -3,8 +3,6 @@ const route = useRoute()
 const { data: page } = await useAsyncData(route.path, () => {
   return queryCollection('blog').path(route.path).first()
 })
-
-console.log(page.value, route.path)
 </script>
 
 <template>
